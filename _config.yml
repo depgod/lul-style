@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   👨💻 Linux sysadmin, 🐧 Ricing, 🕹️ Servers, 🏓 Table Tennis, 🍲 Food 🏗️ Homelab 🤠 Sup, techies! I'm a Linux systems admin who lives and breathes open-source technology. I'm an expert in managing and troubleshooting Linux-based systems, and always on the lookout for ways to improve performance. If you're looking for a wizard with the Linux command line, look no further! Let's get cracking!
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://shellshock.lol" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
