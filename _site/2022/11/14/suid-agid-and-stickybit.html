@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>SUID, SGID and Stickybit</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="SUID, SGID and Stickybit" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="SUID, SGID, and Sticky Bit" />
+<meta property="og:description" content="SUID, SGID, and Sticky Bit" />
+<link rel="canonical" href="http://localhost:4000/2022/11/14/suid-agid-and-stickybit.html" />
+<meta property="og:url" content="http://localhost:4000/2022/11/14/suid-agid-and-stickybit.html" />
+<meta property="og:site_name" content="ox10" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-11-14T00:00:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="SUID, SGID and Stickybit" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2022/11/14/suid-agid-and-stickybit.html","headline":"SUID, SGID and Stickybit","dateModified":"2022-11-14T00:00:00+05:30","datePublished":"2022-11-14T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/11/14/suid-agid-and-stickybit.html"},"@type":"BlogPosting","description":"SUID, SGID, and Sticky Bit","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="ox10" /><link rel="shortcut icon" type="image/x-icon" href="" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/"></a><h1>SUID, SGID and Stickybit</h1>
+
+<h1 id="suid-sgid-and-sticky-bit">SUID, SGID, and Sticky Bit</h1>
+
+<p>SUID, SGID, and sticky bits are Linux file attributes that allow you to define special permissions on files and directories. These attributes can be set using the chmod command and have different effects on the file or directory depending on their usage.</p>
+
+<h3 id="suid">SUID</h3>
+<p>SUID (Set User ID) is a file attribute that allows the user who executes the file to run it with the permissions of the file’s owner. This is useful when you need to give non-root users permission to perform tasks that require root privileges. For example, if you have a file owned by the root user with SUID enabled, a non-root user can execute the file with root privileges.</p>
+
+<h3 id="sgid">SGID</h3>
+<p>SGID (Set Group ID) is a file attribute that allows files to be executed with the permissions of the group owner. When SGID is enabled on a directory, new files created in that directory inherit the group ownership of the parent directory. SGID is useful in situations where multiple users need to access files in the same directory and have the same level of access.</p>
+
+<h3 id="sticky-bit">Sticky bit</h3>
+<p>The sticky bit is a file attribute that can be set on directories. When set, it ensures that only the owner of a file or directory can delete or rename it, even if other users have write access to the directory. The sticky bit is often used on directories that are shared by multiple users to prevent accidental deletion or modification of files.</p>
+
+<p>It’s important to note that SUID, SGID, and sticky bits can introduce security risks if used improperly. For example, enabling SUID on a file that can be modified by other users can allow a malicious user to execute arbitrary code as the file’s owner.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+<p>In conclusion, SUID, SGID, and sticky bits are powerful Linux file attributes that allow you to set special permissions on files and directories. By using them correctly, you can provide users with the permissions they need to perform tasks while maintaining security and control over your system.</p>
+
+<p><br />
+<br /></p>
+
+      </div>
+    </main>
+  </body>
+</html>

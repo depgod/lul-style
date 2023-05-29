@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>File Directory Permissions</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="File Directory Permissions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="File and Directory Permissions Understanding read, write and executable permissions." />
+<meta property="og:description" content="File and Directory Permissions Understanding read, write and executable permissions." />
+<link rel="canonical" href="http://localhost:4000/2022/11/14/file-directory-permissions.html" />
+<meta property="og:url" content="http://localhost:4000/2022/11/14/file-directory-permissions.html" />
+<meta property="og:site_name" content="ox10" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-11-14T00:00:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="File Directory Permissions" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2022/11/14/file-directory-permissions.html","headline":"File Directory Permissions","dateModified":"2022-11-14T00:00:00+05:30","datePublished":"2022-11-14T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/11/14/file-directory-permissions.html"},"@type":"BlogPosting","description":"File and Directory Permissions Understanding read, write and executable permissions.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="ox10" /><link rel="shortcut icon" type="image/x-icon" href="" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/"></a><h1>File Directory Permissions</h1>
+
+<h1 id="file-and-directory-permissions">File and Directory Permissions</h1>
+<p>Understanding read, write and executable permissions.</p>
+
+<p>If we do <code class="language-plaintext highlighter-rouge">ls -l</code>:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>.rw-rw-r-- user family 168 B  Sun Nov 13 01:59:08 2022 things.txt
+</code></pre></div></div>
+<p>Here as we can see a dot “.” at the head part of the output line shows that this is a regular file.</p>
+
+<p>When going through permissions there are four parts of it which can be seen in form of <code class="language-plaintext highlighter-rouge">drwx-rw-r--</code>.</p>
+
+<p><img src="./Linux-File-Permissions-2.webp" alt="alt text" /></p>
+
+<p>r –&gt; Read permission<br />
+w –&gt; Write permission<br />
+x –&gt; Executing permission<br />
+“-“ –&gt; No permission</p>
+
+<h3 id="more-important-notation-for-file-types">More Important notation for file types</h3>
+<p>|File Type | Identifier|
+– | – 
+|Directory | d|
+|Regular File | - , .|
+|Character File | c|
+|Link | l|
+|Socker File | s|
+|Pipe | p|
+|Block Device | b|</p>
+
+<h3 id="how-permissions-are-evaluated">How permissions are evaluated</h3>
+
+<p>When a user tries to read or write to a file, the users permisisons are evaluated in a linear left to right manner:</p>
+<ol>
+  <li>First owner permissions will be looked at and action will be taken based on its permissions.</li>
+  <li>If the owner has none of the required permissions then group permissions will be looked at and action is taken accordingly.</li>
+  <li>Lastly if the user is not int he group or does not exist then last set of permissions will be looked at and action is taken accordingly.</li>
+</ol>
+
+
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Softlinks in linux</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Softlinks in linux" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Softlinks in linux" />
+<meta property="og:description" content="Softlinks in linux" />
+<link rel="canonical" href="http://localhost:4000/2022/11/14/softlinks-linux.html" />
+<meta property="og:url" content="http://localhost:4000/2022/11/14/softlinks-linux.html" />
+<meta property="og:site_name" content="ox10" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-11-14T00:00:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Softlinks in linux" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2022/11/14/softlinks-linux.html","headline":"Softlinks in linux","dateModified":"2022-11-14T00:00:00+05:30","datePublished":"2022-11-14T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/11/14/softlinks-linux.html"},"@type":"BlogPosting","description":"Softlinks in linux","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="ox10" /><link rel="shortcut icon" type="image/x-icon" href="" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/"></a><h1>Softlinks in linux</h1>
+
+<h1 id="softlinks-in-linux">Softlinks in linux</h1>
+
+<p>Softlinks are basically an absolute path to the executable, like in windows we see desktop shortcuts which actually leads to an absolute path of the executable resulting in executing that file upon clicking.</p>
+
+<h3 id="creating-softlinks">Creating softlinks</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">ln</span> <span class="nt">-s</span> path_to_target_file path_to_link_file
+</code></pre></div></div>
+
+<p>path_to_target_file -&gt; original file<br />
+path_to_link_file -&gt; represents shortcut</p>
+
+<h3 id="viewing-hardsoftlinks">Viewing hard/softlinks</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">ls</span> <span class="nt">-l</span>
+</code></pre></div></div>
+<p><strong>Output</strong>:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>lrwxrwxrwx root root     23 B  Sun Jul 17 00:48:34 2022  vtrgb ⇒ /etc/alternatives/vtrgb
+</code></pre></div></div>
+
+<p>Shows an example of a file in that directory.</p>
+
+<h3 id="reading-hardsoftlinks-of-a-file">Reading hard/softlinks of a file</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">readlink </span>family_dog_shortcut.jpg
+</code></pre></div></div>
+<p>Output:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>/home/aaron/Pictures/family_dog.jpg
+</code></pre></div></div>
+<p>Shows hard and softlinks of mentioned file.</p>
+
+<h2 id="important-points-of-softlinks">Important points of softlinks</h2>
+
+<p>Softlinks can be made between file to file or dir to dir or even between different filesystems.</p>
+
+      </div>
+    </main>
+  </body>
+</html>

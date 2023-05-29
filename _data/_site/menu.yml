@@ -1,0 +1,26 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: info
+    entries:
+      - title: 👨💻 Linux sysadmin, 🐧 Ricing, 🕹️ Servers, 🏓 Table Tennis, 🍲 Food 🏗️ Homelab 🤠 Sup, techies! I'm a Linux systems admin who lives and breathes open-source technology. I'm an expert in managing and troubleshooting Linux-based systems, and always on the lookout for ways to improve performance. If you're looking for a wizard with the Linux command line, look no further! Let's get cracking!
+      - title: github repo
+        url: https://github.com/depgod/weblog
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: posts by category
+    post_list:
+      category: example2
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: example2-archive.html
+
+  - title: rss
+    url: feed.xml

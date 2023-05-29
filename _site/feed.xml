@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-29T04:47:03+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">ox10</title><subtitle>👨💻 Linux sysadmin, 🐧 Ricing, 🕹️ Servers, 🏓 Table Tennis, 🍲 Food 🏗️ Homelab 🤠 Sup, techies! I&apos;m a Linux systems admin who lives and breathes open-source technology. I&apos;m an expert in managing and troubleshooting Linux-based systems, and always on the lookout for ways to improve performance. If you&apos;re looking for a wizard with the Linux command line, look no further! Let&apos;s get cracking!</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/05/29/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-05-29T03:34:36+05:30</published><updated>2023-05-29T03:34:36+05:30</updated><id>http://localhost:4000/jekyll/update/2023/05/29/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/05/29/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Communities / Blogs I follow</title><link href="http://localhost:4000/2023/02/24/blogs-i-follow.html" rel="alternate" type="text/html" title="Communities / Blogs I follow" /><published>2023-02-24T00:00:00+05:30</published><updated>2023-02-24T00:00:00+05:30</updated><id>http://localhost:4000/2023/02/24/blogs-i-follow</id><content type="html" xml:base="http://localhost:4000/2023/02/24/blogs-i-follow.html">&lt;h1 id=&quot;communities--blogs-i-follow&quot;&gt;Communities / Blogs I follow&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;websites&quot;&gt;Websites&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It’s Foss -&amp;gt; https://itsfoss.com&lt;/li&gt;
+  &lt;li&gt;TecMint -&amp;gt; https://tecmint.com&lt;/li&gt;
+  &lt;li&gt;The Linux Experiment -&amp;gt; https://www.youtube.com/c/TheLinuxExperiment&lt;/li&gt;
+  &lt;li&gt;Learn Linux Tv -&amp;gt; https://www.learnlinux.tv/&lt;/li&gt;
+  &lt;li&gt;bugswriter -&amp;gt; https://bugswriter.com/&lt;/li&gt;
+  &lt;li&gt;Luke Smith -&amp;gt; https://lukesmith.xyz&lt;/li&gt;
+  &lt;li&gt;Mental Outlaw -&amp;gt; https://github.com/MentalOutlaw&lt;/li&gt;
+  &lt;li&gt;Technotim -&amp;gt; https://techno-tim.github.io&lt;/li&gt;
+  &lt;li&gt;chris@machine -&amp;gt; https://www.chrisatmachine.com/&lt;/li&gt;
+  &lt;li&gt;Brodie Robertson -&amp;gt; https://github.com/BrodieRobertson&lt;/li&gt;
+  &lt;li&gt;Linux Tech Tips -&amp;gt; https://linustechtips.com&lt;/li&gt;
+  &lt;li&gt;Techut -&amp;gt; https://techhut.tv&lt;/li&gt;
+  &lt;li&gt;Ditrotube -&amp;gt; https://distro.tube&lt;/li&gt;
+  &lt;li&gt;The Linux Cast -&amp;gt; https://thelinuxcast.org&lt;/li&gt;
+  &lt;li&gt;Freecodecamp -&amp;gt; https://freecodecamp.org&lt;/li&gt;
+  &lt;li&gt;Hackersploit -&amp;gt; https://hackersploit.org&lt;/li&gt;
+  &lt;li&gt;Programming with Mosh -&amp;gt; https://www.programmingwithmosh.com&lt;/li&gt;
+  &lt;li&gt;Cybersecurity Meg -&amp;gt; https://www.youtube.com/c/CybersecurityMeg/&lt;/li&gt;
+  &lt;li&gt;Unixsheikh -&amp;gt; https://unixsheikh.com&lt;/li&gt;
+  &lt;li&gt;Livialima -&amp;gt; https://livialima.net&lt;/li&gt;
+  &lt;li&gt;Joecollins -&amp;gt; https://www.ezeelinux.com/&lt;/li&gt;
+  &lt;li&gt;GeoHot -&amp;gt; https://geohot.com&lt;/li&gt;
+  &lt;li&gt;Jack Rhysider -&amp;gt; https://darknetdiaries.com&lt;/li&gt;
+  &lt;li&gt;ippsec -&amp;gt; https://ippsec.rocks&lt;/li&gt;
+  &lt;li&gt;Techlore -&amp;gt; https://www.techlore.tech&lt;/li&gt;
+  &lt;li&gt;omg!ubuntu -&amp;gt; https://www.omgubuntu.co.uk&lt;/li&gt;
+  &lt;li&gt;Hackernews -&amp;gt; https://hackernews.com&lt;/li&gt;
+  &lt;li&gt;Landchad -&amp;gt; https://landchad.net&lt;/li&gt;
+  &lt;li&gt;Rudra Saraswat -&amp;gt; https://about.ruds.io/&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;telegram-communities&quot;&gt;Telegram Communities&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Fedora linux -&amp;gt; https://t.me/fedora&lt;/li&gt;
+  &lt;li&gt;Manjaro Community -&amp;gt; https://t.me/manjaro&lt;/li&gt;
+  &lt;li&gt;ArchLinux -&amp;gt; https://t.me/archlinuxgroup&lt;/li&gt;
+  &lt;li&gt;Kde neon -&amp;gt; https://t.me/kdeneon&lt;/li&gt;
+  &lt;li&gt;Linux for everyone community -&amp;gt; https://t.me/linux4everyone&lt;/li&gt;
+  &lt;li&gt;gentoogram -&amp;gt; https://t.me/gentoogram&lt;/li&gt;
+  &lt;li&gt;xda developers -&amp;gt; https://t.me/xdadevelopershub&lt;/li&gt;
+  &lt;li&gt;vmware -&amp;gt; https://t.me/vmwaregroup&lt;/li&gt;
+  &lt;li&gt;hackernews -&amp;gt; https://t.me/hackernewslive&lt;/li&gt;
+  &lt;li&gt;Private your tech -&amp;gt; https://t.me./privateyourtech&lt;/li&gt;
+  &lt;li&gt;Its foss community -&amp;gt; https://t.me/itsfoss_official&lt;/li&gt;
+  &lt;li&gt;Bleeping computers -&amp;gt; https://t.me/bleepingcomputer&lt;/li&gt;
+  &lt;li&gt;Nextcloud -&amp;gt; https://t.me/nextcloud&lt;/li&gt;
+  &lt;li&gt;Python django -&amp;gt; https://t.me/pythonl_django&lt;/li&gt;
+  &lt;li&gt;popos -&amp;gt; https://t.me/popos_en&lt;/li&gt;
+  &lt;li&gt;Cybersecuritynews -&amp;gt; https://t.me/cyber_security_channel&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="linux" /><summary type="html">Communities / Blogs I follow</summary></entry><entry><title type="html">Why I love Linux as a homelabber</title><link href="http://localhost:4000/2023/02/23/why-i-love-linux-as-a-homelabber.html" rel="alternate" type="text/html" title="Why I love Linux as a homelabber" /><published>2023-02-23T00:00:00+05:30</published><updated>2023-02-23T00:00:00+05:30</updated><id>http://localhost:4000/2023/02/23/why-i-love-linux-as-a-homelabber</id><content type="html" xml:base="http://localhost:4000/2023/02/23/why-i-love-linux-as-a-homelabber.html">&lt;h1 id=&quot;why-i-love-linux-as-a-homelabber&quot;&gt;Why I love linux as a homelabber&lt;/h1&gt;
+
+&lt;p&gt;As a homelabber, I have come to appreciate and love Linux for its flexibility, security, and versatility. Linux has become a staple of my homelab, and I cannot imagine using any other operating system for my home projects and experiments.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/lxX7j.jpg&quot; alt=&quot;GNU/Linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;flexibility&quot;&gt;Flexibility&lt;/h3&gt;
+&lt;p&gt;One of the primary reasons I love Linux as a homelabber is its flexibility. Linux provides an open-source platform that allows users to customize and modify the software to their liking. This flexibility is especially valuable for homelabbers who want to experiment with different setups and configurations. With Linux, I can easily configure and optimize my homelab to suit my specific needs, whether it’s for web hosting, virtualization, or media streaming.&lt;/p&gt;
+
+&lt;h3 id=&quot;security&quot;&gt;Security&lt;/h3&gt;
+&lt;p&gt;Another reason I love Linux as a homelabber is its security. Linux is known for its robust security features, which are built into the core of the operating system. Unlike other operating systems that require third-party antivirus software, Linux has security features like SELinux, AppArmor, and kernel-level security modules that protect against malware, viruses, and other cyber threats. This security is especially important for homelabbers who want to protect their data and devices from potential cyberattacks.&lt;/p&gt;
+
+&lt;p&gt; &lt;br /&gt;
+&lt;img src=&quot;/assets/banner-gc2badc0c0_1280.jpg&quot; alt=&quot;security&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;versatility&quot;&gt;Versatility&lt;/h3&gt;
+&lt;p&gt;Linux’s versatility is another aspect that makes it an excellent choice for homelabbers. Linux can run on almost any device, making it an ideal choice for homelabbers who want to experiment with different hardware setups. Additionally, Linux supports a wide range of software and applications, making it easy for homelabbers to find the right tools for their projects.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&quot;cost-effectiveness&quot;&gt;Cost-effectiveness&lt;/h3&gt;
+&lt;p&gt;One of the most significant benefits of using Linux as a homelabber is its cost-effectiveness. Linux is free and open source, meaning there are no licensing costs or fees associated with its use. This cost-effectiveness is especially valuable for homelabbers who may have a limited budget but still want to experiment with different setups and configurations.&lt;/p&gt;
+
+&lt;p&gt; &lt;br /&gt;
+Finally, one of the most significant reasons I love Linux as a homelabber is its community. The Linux community is passionate, welcoming, and always willing to help others. There are countless forums, blogs, and websites dedicated to Linux, where homelabbers can find answers to their questions, troubleshoot issues, and share knowledge with other users. This community is especially valuable for homelabbers who may be new to Linux or have limited experience with the operating system.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&quot;my-homelab-network-diagram&quot;&gt;My Homelab Network Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/network-diagram.png&quot; alt=&quot;Network Diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;br /&gt;
+In conclusion, Linux is an ideal choice for homelabbers who want a flexible, secure, and versatile operating system. Its open-source nature, security, versatility, cost-effectiveness, and community all contribute to its appeal. As someone who has used Linux in my homelab for years, I can say that it has become an essential part of my home computing experience. Whether it’s for personal or professional use, Linux is a powerful and reliable operating system that continues to evolve and improve with each passing year.&lt;/p&gt;
+
+&lt;p&gt; &lt;br /&gt;
+ &lt;/p&gt;</content><author><name></name></author><category term="homelab" /><summary type="html">Why I love linux as a homelabber</summary></entry><entry><title type="html">Resume</title><link href="http://localhost:4000/2023/01/14/resume.html" rel="alternate" type="text/html" title="Resume" /><published>2023-01-14T00:00:00+05:30</published><updated>2023-01-14T00:00:00+05:30</updated><id>http://localhost:4000/2023/01/14/resume</id><content type="html" xml:base="http://localhost:4000/2023/01/14/resume.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/1kEr9xcosC3RM_AnBMLm8gKI7O0a0DzBO/view?usp=share_link&quot;&gt;&lt;strong&gt;Download Here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;shashank&quot;&gt;Shashank&lt;/h1&gt;
+&lt;p&gt;📧 mail@shashank.work&lt;br /&gt;
+📱 +91-XXXXXXXXXX&lt;br /&gt;
+🌐 https://shashank.work&lt;br /&gt;
+🔑 &lt;a href=&quot;https://keys.openpgp.org/vks/v1/by-fingerprint/C140A4EC3B6516385A0F3487D92CB2DB369D27E8&quot;&gt;3487 d92c b2bd 369d 27e8&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;bio&quot;&gt;Bio&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Shashank is a highly motivated Linux enthusiast with a passion for open-source software and system administration. He has a strong background in computational sciences and a deep understanding of Linux operating systems, virtualization, and containerization technologies. Shashank is a quick learner with excellent problem-solving skills and a keen attention to detail. He is a collaborative team player who values communication and is always willing to help his colleagues. In his free time, Shashank enjoys tinkering with his homelab, exploring new technologies, and contributing to various open-source projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;education&quot;&gt;Education&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Master’s in Computational Biology&lt;/strong&gt;&lt;br /&gt;
+  &lt;em&gt;School of Computational and Integrative Sciences, Jawaharlal Nehru University - New Delhi&lt;/em&gt;&lt;br /&gt;
+  July 2017 to April 2019&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bachelor’s in Botany&lt;/strong&gt;&lt;br /&gt;
+  &lt;em&gt;Hansraj College, University of Delhi - New Delhi&lt;/em&gt;&lt;br /&gt;
+  July 2013 to April 2016&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;skills&quot;&gt;Skills&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Skill&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Tools&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;OS&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&amp;amp;logo=redhat&amp;amp;logoColor=white&quot; alt=&quot;Redhat&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/Cent%20OS-262577?style=for-the-badge&amp;amp;logo=CentOS&amp;amp;logoColor=white&quot; alt=&quot;Centos&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/Fedora-294172?style=for-the-badge&amp;amp;logo=fedora&amp;amp;logoColor=white&quot; alt=&quot;Fedora&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&amp;amp;logo=ubuntu&amp;amp;logoColor=white&quot; alt=&quot;Ubuntu&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&amp;amp;logo=arch-linux&amp;amp;logoColor=white&quot; alt=&quot;Archlinux&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&amp;amp;logo=debian&amp;amp;logoColor=white&quot; alt=&quot;Debian&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&amp;amp;logo=windows&amp;amp;logoColor=white&quot; alt=&quot;Windows&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/Pop!_OS-48B9C7?style=for-the-badge&amp;amp;logo=Pop!_OS&amp;amp;logoColor=white&quot; alt=&quot;Pop!_OS&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/Manjaro-35BF5C?style=for-the-badge&amp;amp;logo=Manjaro&amp;amp;logoColor=white&quot; alt=&quot;Manjaro&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/lineageos-167C80?style=for-the-badge&amp;amp;logo=lineageos&amp;amp;logoColor=white&quot; alt=&quot;Lineageos&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&amp;amp;logo=Raspberry-Pi&quot; alt=&quot;Raspberry Pi&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Containers&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/LXC-100000?style=for-the-badge&amp;amp;logo=LXC&amp;amp;logoColor=white&amp;amp;labelColor=F15CD1&amp;amp;color=FEAF62&quot; alt=&quot;LXC&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&amp;amp;logo=docker&amp;amp;logoColor=white&quot; alt=&quot;Docker&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Hyper-V&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Proxmox-100000?style=for-the-badge&amp;amp;logo=LXC&amp;amp;logoColor=white&amp;amp;labelColor=F15CD1&amp;amp;color=FE4D01&quot; alt=&quot;Proxmox&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Networking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/DNS-100000?style=for-the-badge&amp;amp;logo=DNS&amp;amp;logoColor=white&amp;amp;labelColor=black&amp;amp;color=189DF4&quot; alt=&quot;DNS&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/VPN-100000?style=for-the-badge&amp;amp;logo=VPN&amp;amp;logoColor=white&amp;amp;labelColor=black&amp;amp;color=FF0101&quot; alt=&quot;VPN&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/TCP/IP-100000?style=for-the-badge&amp;amp;logo=VPN&amp;amp;logoColor=white&amp;amp;labelColor=black&amp;amp;color=F500C9&quot; alt=&quot;TCP/IP&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&amp;amp;logo=ansible&amp;amp;logoColor=white&quot; alt=&quot;Ansible&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Cloud&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&amp;amp;logo=google-cloud&amp;amp;logoColor=white&quot; alt=&quot;Google Cloud&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/linode-00A95C?style=for-the-badge&amp;amp;logo=linode&amp;amp;logoColor=white&quot; alt=&quot;Linode&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&amp;amp;logo=microsoftazure&amp;amp;logoColor=white&quot; alt=&quot;Azure&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&amp;amp;logo=amazon-aws&amp;amp;logoColor=white&quot; alt=&quot;AWS&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&amp;amp;logo=Cloudflare&amp;amp;logoColor=white&quot; alt=&quot;Cloudflare&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Language&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&amp;amp;logo=gnu-bash&amp;amp;logoColor=white&quot; alt=&quot;Shell Script&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;amp;logo=python&amp;amp;logoColor=ffdd54&quot; alt=&quot;Python&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&amp;amp;logo=css3&amp;amp;logoColor=white&quot; alt=&quot;CSS3&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&amp;amp;logo=html5&amp;amp;logoColor=white&quot; alt=&quot;HTML5&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&amp;amp;logo=markdown&amp;amp;logoColor=white&quot; alt=&quot;Markdown&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&amp;amp;logo=ansible&amp;amp;logoColor=white&quot; alt=&quot;Ansible&quot; /&gt; &lt;img src=&quot;https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&amp;amp;logo=bootstrap&amp;amp;logoColor=white&quot; alt=&quot;Bootstrap&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&amp;amp;logo=grafana&amp;amp;logoColor=white&quot; alt=&quot;Grafana&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Misc&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&amp;amp;logo=git&amp;amp;logoColor=white&quot; alt=&quot;Git&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;experience&quot;&gt;Experience&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;-&amp;gt; &lt;strong&gt;School of Computational and Integrative Sciences, JNU, New Delhi&lt;/strong&gt;&lt;br /&gt;
+  July 2018 to December 2018&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Assisted in VM deployments for school projects&lt;/li&gt;
+  &lt;li&gt;Setup backup scripts for remote backups&lt;/li&gt;
+  &lt;li&gt;Setup remote access&lt;/li&gt;
+  &lt;li&gt;Resolved server based configuration problems, wrote scripts to ensure smooth server/reboot functioning and assisted with various Linux concerns and queries.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;projects&quot;&gt;Projects&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;-&amp;gt; &lt;strong&gt;Homelab&lt;/strong&gt;&lt;br /&gt;
+  September 2019 to today&lt;/p&gt;
+
+&lt;p&gt;Since August of 2019, I have been maintaining a homelab which hosts a few of my services which I cater to few people from my family and friends around 15 of them.&lt;br /&gt;
+  Services I am hosting:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Nextcloud - Google Workspace alternative&lt;/li&gt;
+  &lt;li&gt;Bitwarden - Password Manager for all&lt;/li&gt;
+  &lt;li&gt;Pihole - Selfhosted DNS and Adblocker&lt;/li&gt;
+  &lt;li&gt;Portainer - For docker management&lt;/li&gt;
+  &lt;li&gt;Nginx - Web hosting&lt;/li&gt;
+  &lt;li&gt;CloudFlare tunnels - Secure reverse proxy that safely exposes my services to internet without port forwarding in my router&lt;/li&gt;
+  &lt;li&gt;Wireguard - Selfhosted VPN&lt;/li&gt;
+  &lt;li&gt;Proxmox - Awesome hypervisor that gives me unlimited virtual machines and containers&lt;/li&gt;
+  &lt;li&gt;Service uptime alerts&lt;/li&gt;
+  &lt;li&gt;MySQL server&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Hardware I am using:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Two 6th gen intel powered laptops now turned into ubuntu servers&lt;/li&gt;
+  &lt;li&gt;100mbps D-link switch&lt;/li&gt;
+  &lt;li&gt;Nokia G-240 Dual band router&lt;/li&gt;
+  &lt;li&gt;Lan cables, various connectors&lt;/li&gt;
+  &lt;li&gt;1 Digitalocean droplet  for personal VPN&lt;/li&gt;
+  &lt;li&gt;Master node&lt;br /&gt;
+  In the span of last 3 years I have managed these services with maximum uptime, on time server maintenance and managed logs counter actively. While managing these services there were scenarios when I learned about the importance of shell scripting for automated backups and server patching. My go to containerization solution is docker and lxc depending on the applicaion requirements.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Please check out my public services:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;img src=&quot;https://img.shields.io/badge/Next%20Cloud-0B94DE?style=for-the-badge&amp;amp;logo=nextcloud&amp;amp;logoColor=white&quot; alt=&quot;Next Coud&quot; /&gt; -&amp;gt; &lt;a href=&quot;https://nc.shellshock.lol&quot;&gt;🔗&lt;/a&gt; &lt;em&gt;(sign up’s now closed because of abuse)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;https://img.shields.io/badge/bitwarden-%23175DDC.svg?style=for-the-badge&amp;amp;logo=bitwarden&amp;amp;logoColor=white&quot; alt=&quot;Bitwarden&quot; /&gt; -&amp;gt; &lt;a href=&quot;https://bw.shellshock.lol&quot;&gt;🔗&lt;/a&gt; &lt;em&gt;(sign up’s now closed because of abuse)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Pastebin  -&amp;gt; &lt;a href=&quot;https://bin.shellshock.lol&quot;&gt;🔗&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;online-profiles&quot;&gt;Online Profiles&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;img src=&quot;https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;amp;logo=github&amp;amp;logoColor=white&quot; alt=&quot;Github&quot; /&gt; https://github.com/depgod&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;https://img.shields.io/badge/Blog-100000?style=for-the-badge&amp;amp;logo=home&amp;amp;logoColor=white&amp;amp;labelColor=black&amp;amp;color=A1FF14&quot; alt=&quot;Blog&quot; /&gt; https://shashank.work&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&amp;amp;logo=telegram&amp;amp;logoColor=white&quot; alt=&quot;Telegram&quot; /&gt; https://t.me/blahblahblah269&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&amp;amp;logo=discord&amp;amp;logoColor=white&quot; alt=&quot;Discord&quot; /&gt; https://discord.com/users/commandline#5301&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&amp;amp;logo=steam&amp;amp;logoColor=white&quot; alt=&quot;Steam&quot; /&gt; https://steamcommunity.com/id/kama13/
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/twitter/follow/badpkg?style=social&quot; alt=&quot;Twitter&quot; /&gt; 
+&lt;img src=&quot;https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg&quot; alt=&quot;Markdown&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="resume" /><summary type="html">Download Here Shashank 📧 mail@shashank.work 📱 +91-XXXXXXXXXX 🌐 https://shashank.work 🔑 3487 d92c b2bd 369d 27e8</summary></entry><entry><title type="html">Zerotier instead of Tailscale</title><link href="http://localhost:4000/2022/11/26/zerotier-instead-of-tailscale.html" rel="alternate" type="text/html" title="Zerotier instead of Tailscale" /><published>2022-11-26T00:00:00+05:30</published><updated>2022-11-26T00:00:00+05:30</updated><id>http://localhost:4000/2022/11/26/zerotier-instead-of-tailscale</id><content type="html" xml:base="http://localhost:4000/2022/11/26/zerotier-instead-of-tailscale.html">&lt;h1 id=&quot;zerotier-instead-of-tailscale&quot;&gt;Zerotier instead of Tailscale&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/zerotier_logo_white.png&quot; alt=&quot;Zerotier&quot; /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;ZeroTier and Tailscale are two popular software-defined networking (SDN) solutions that provide secure and flexible networking options for businesses and individuals. While both platforms offer similar functionality, there are some key differences that make ZeroTier a better choice for certain use cases.&lt;/p&gt;
+
+&lt;h3 id=&quot;opensource-nature&quot;&gt;Opensource nature&lt;/h3&gt;
+&lt;p&gt;One of the main advantages of ZeroTier is its open-source nature. Unlike Tailscale, which is a closed-source commercial product, ZeroTier is fully open-source, which means users have complete control over the code and can modify it to meet their specific needs. This also means that ZeroTier is free to use for most personal and non-commercial purposes, making it a more cost-effective option for individuals and small businesses.&lt;/p&gt;
+
+&lt;h3 id=&quot;compatibility&quot;&gt;Compatibility&lt;/h3&gt;
+&lt;p&gt;Another key advantage of ZeroTier is its support for a wider range of platforms and devices. While Tailscale only works with a limited number of operating systems and devices, including Linux, macOS, Windows, and iOS, ZeroTier supports a much wider range of platforms, including Android, FreeBSD, OpenBSD, and even some IoT devices. This makes ZeroTier a more versatile solution for organizations that need to connect devices running on different operating systems and platforms.&lt;/p&gt;
+
+&lt;h3 id=&quot;flexible-and-scalable&quot;&gt;Flexible and Scalable&lt;/h3&gt;
+&lt;p&gt;In addition to its broad platform support, ZeroTier also offers a more flexible and scalable networking architecture. Unlike Tailscale, which relies on a centralized server for routing and management, ZeroTier uses a distributed network architecture, where each node acts as a peer in the network and can route traffic to other nodes. This allows for greater redundancy and fault tolerance, as there is no single point of failure in the network. It also makes it easier to scale the network as new nodes can be added easily without requiring any central configuration.&lt;/p&gt;
+
+&lt;h3 id=&quot;vlans&quot;&gt;VLAN’s&lt;/h3&gt;
+&lt;p&gt;Another advantage of ZeroTier is its support for virtual LANs (VLANs), which allow users to segment the network and control access to different resources. This is especially useful for organizations that need to provide secure access to different departments or teams within the company. Tailscale, on the other hand, does not support VLANs, which means users have limited control over network segmentation and access control.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Finally, ZeroTier offers a more customizable and extensible platform than Tailscale. Because it is open-source, users can modify the code to add new features or integrate it with other tools and services. This makes it a more adaptable solution for organizations that have specific requirements or need to integrate with other systems.&lt;/p&gt;
+
+&lt;p&gt;While Tailscale has its advantages, including a user-friendly interface and ease of use, ZeroTier is a more versatile and customizable solution that offers greater flexibility, scalability, and control. For individuals and small businesses, ZeroTier is a more cost-effective option that provides access to a wide range of platforms and devices, while for larger organizations that need to scale their networks and control access to different resources, ZeroTier’s distributed architecture and support for VLANs make it a better choice.&lt;/p&gt;</content><author><name></name></author><category term="networking" /><summary type="html">Zerotier instead of Tailscale</summary></entry><entry><title type="html">Services</title><link href="http://localhost:4000/2022/11/21/services.html" rel="alternate" type="text/html" title="Services" /><published>2022-11-21T00:00:00+05:30</published><updated>2022-11-21T00:00:00+05:30</updated><id>http://localhost:4000/2022/11/21/services</id><content type="html" xml:base="http://localhost:4000/2022/11/21/services.html">&lt;h1 id=&quot;services&quot;&gt;Services&lt;/h1&gt;
+
+&lt;p&gt;I have set up self-hosted free services in my homelab for several reasons. First, it allows me to learn and experiment with different technologies and tools. By setting up and maintaining these services myself, I gain practical experience and knowledge that I can apply to other projects.&lt;/p&gt;
+
+&lt;p&gt;Second, it gives me more control over my data and privacy. By self-hosting services such as Nextcloud for file storage and email, I can ensure that my data is stored locally and not on third-party servers. This gives me greater control over who has access to my data and how it is used.&lt;/p&gt;
+
+&lt;p&gt;Third, it is a cost-effective solution. By self-hosting services on my own hardware, I don’t have to pay for expensive subscriptions or hosting fees. This allows me to experiment with different services without worrying about the cost.&lt;/p&gt;
+
+&lt;p&gt;Finally, it is a fun and rewarding hobby. Setting up and maintaining a homelab can be challenging at times, but it is also very satisfying to see the services I’ve set up running smoothly and efficiently. It is a great way to learn new skills and keep myself engaged in the world of technology.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media1.giphy.com/media/SyV2qpZXupdxvm7sad/giphy.gif?cid=ecf05e47uyvsp9nwcmmk5lubk91g6lzsnnyfnvfn5lpn8lmj&amp;amp;rid=giphy.gif&amp;amp;ct=g&quot; alt=&quot;Wiring, switches and router&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Services&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;&lt;strong&gt;Links&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Bitwarden&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://box.shellshock.lol&quot;&gt;🔗&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Librecloud (Nextcloud)&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://nc.shellshock.lol&quot;&gt;🔗&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;LibReddit&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://reddit.shellshock.lol&quot;&gt;🔗&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;LibreX&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://search.shellshock.lol&quot;&gt;🔗&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;FreshRSS&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://rss.ox10.xyz&quot;&gt;🔗&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Openspeedtest&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;a href=&quot;https://speedtest.shellshock.lol&quot;&gt;🔗&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt; 
+ &lt;/p&gt;
+
+&lt;p&gt;🌱&lt;strong&gt;&lt;em&gt;Upcoming stuff&lt;/em&gt;&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;📥 Web Email&lt;/li&gt;
+  &lt;li&gt;🌐 DNS&lt;/li&gt;
+  &lt;li&gt;🔗 Linkshortner&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt; &lt;/p&gt;</content><author><name></name></author><category term="self-hosted" /><summary type="html">Services</summary></entry><entry><title type="html">This blog</title><link href="http://localhost:4000/2022/11/21/this-blog.html" rel="alternate" type="text/html" title="This blog" /><published>2022-11-21T00:00:00+05:30</published><updated>2022-11-21T00:00:00+05:30</updated><id>http://localhost:4000/2022/11/21/this-blog</id><content type="html" xml:base="http://localhost:4000/2022/11/21/this-blog.html">&lt;h1 id=&quot;why-this-blog&quot;&gt;Why this blog&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+As a lover of all things cyberpunk, Linux, and technology, I was inspired to create this website to share my passion and knowledge with like-minded individuals around the world. I wanted to create a platform where I could write about the latest trends and advancements in the tech world, share my thoughts and ideas on cyberpunk culture, and provide tips and tutorials for those interested in Linux and other open-source software.&lt;/p&gt;
+
+&lt;h3 id=&quot;linux&quot;&gt;Linux&lt;/h3&gt;
+&lt;p&gt;One of my main motivations for creating this website was to promote the use of Linux and other open-source software. I firmly believe that open-source software is the future of computing, as it allows for greater transparency, security, and flexibility than proprietary software. By sharing my knowledge and experiences with Linux and other open-source tools, I hope to encourage others to make the switch and experience the benefits of open-source software for themselves.&lt;/p&gt;
+
+&lt;h3 id=&quot;cyberpunk-genre&quot;&gt;Cyberpunk genre&lt;/h3&gt;
+&lt;p&gt;Another source of inspiration for this website was the cyberpunk genre itself. Cyberpunk has always been a fascinating and influential movement in popular culture, and it has inspired countless works of fiction, art, and technology over the years. By exploring the themes and ideas of cyberpunk culture on this website, I hope to connect with other fans of the genre and share our mutual love for all things cyberpunk.&lt;/p&gt;
+
+&lt;h3 id=&quot;trends&quot;&gt;Trends&lt;/h3&gt;
+&lt;p&gt;Technology is also a major source of inspiration for this website. As someone who has always been interested in the latest gadgets and advancements in computing, I wanted to create a platform where I could write about the latest trends and innovations in the tech world. Whether it’s the latest smartphone release or the newest development in artificial intelligence, I aim to provide insightful and engaging content that keeps readers up to date on the latest happenings in the tech industry.&lt;/p&gt;
+
+&lt;h3 id=&quot;community&quot;&gt;Community&lt;/h3&gt;
+&lt;p&gt;In creating this website, I also hope to foster a sense of community among like-minded individuals who share my interests in cyberpunk, Linux, and technology. By providing a platform for discussion and collaboration, I aim to create a space where readers can connect with each other, share their own experiences and knowledge, and collaborate on projects and ideas related to our shared interests.&lt;/p&gt;
+
+&lt;p&gt;Overall, my goal with this website is to create a space where I can explore my passions for cyberpunk, Linux, and technology, while also connecting with others who share these interests. Whether you’re a seasoned Linux user, a die-hard cyberpunk fan, or simply someone who loves technology and all its possibilities, I hope you’ll find something to enjoy on this website, and that you’ll join me on this journey of exploration and discovery.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading.&lt;/p&gt;
+
+&lt;p&gt;Looking for more ?
+Check out my blog »&amp;gt; &lt;a href=&quot;https://shellshock.lol&quot;&gt;🏠&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="life" /><summary type="html">Why this blog</summary></entry><entry><title type="html">About</title><link href="http://localhost:4000/2022/11/19/about.html" rel="alternate" type="text/html" title="About" /><published>2022-11-19T00:00:00+05:30</published><updated>2022-11-19T00:00:00+05:30</updated><id>http://localhost:4000/2022/11/19/about</id><content type="html" xml:base="http://localhost:4000/2022/11/19/about.html">&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+In the world of technology, there are many people who enjoy tinkering with their own personal systems and software, often referred to as “homelab hobbyists”. These individuals are passionate about maintaining their own infrastructure, often using open source software, and using it to learn and experiment with new technologies. One such homelab hobbyist is a junior Linux system administrator named Shashank, who maintains a variety of self-hosted software.&lt;/p&gt;
+
+&lt;p&gt;Shashank has always had a fascination with technology, especially when it comes to building and maintaining his own systems. He first started experimenting with Linux in graduation, and has been hooked ever since. While completing a degree in Computational Biology, he did some linux assistance based work as a junior Linux system administrator, where he worked for 6 months.&lt;/p&gt;
+
+&lt;p&gt;In his spare time, Shashank enjoys building and maintaining his own homelab, where he runs a variety of self-hosted software. His lab is made up of several old servers that he’s acquired over the years, which he’s repurposed for his own personal use. His homelab serves as a testing ground for new technologies, and allows him to experiment with software that he wouldn’t otherwise have access to.&lt;/p&gt;
+
+&lt;p&gt;One of the main pieces of software that Shashank maintains is a self-hosted Nextloud, Bitwarden and a Git server. This allows him to store his code repositories on his own server, rather than relying on third-party services. He also maintains a self-hosted file sharing service, which he uses to share files with his friends and family. Sam likes having control over his own data, and having the ability to manage it himself.&lt;/p&gt;
+
+&lt;p&gt;In addition to these services, Shashank also maintains a &lt;a href=&quot;https://docs.shellshock.lol/notes&quot;&gt;gitbook&lt;/a&gt; wiki, which he uses as a personal knowledge base. He’s populated the wiki with information about various technologies that he’s learned about, as well as documentation for his own homelab. He’s found that having a centralized repository for information has been incredibly useful, especially when it comes to troubleshooting and problem-solving.&lt;/p&gt;
+
+&lt;p&gt;Shashank also runs a variety of virtual machines on his servers, which he uses for testing and experimentation. He’s set up virtual machines for a variety of purposes, including testing new software, experimenting with network configurations, and even running his own personal Minecraft server (not anymore). Having the ability to spin up and tear down virtual machines quickly and easily has been a valuable skill for Shashank to have, both in his personal and professional life.&lt;/p&gt;
+
+&lt;p&gt;While maintaining a homelab can be a lot of work, Shashank finds it to be a rewarding hobby. He enjoys the challenge of building and maintaining his own infrastructure, and the satisfaction of knowing that he’s in control of his own data. Plus, it’s a great way for him to continue learning about new technologies, and to experiment with different configurations and setups.&lt;/p&gt;
+
+&lt;p&gt;As a junior Linux system administrator, Shashank’s homelab hobby has also been beneficial for his career. The skills and knowledge that he’s gained through maintaining his own infrastructure have been transferable to his job, allowing him to take on more complex tasks and projects. Plus, his experience with self-hosted software has given him a unique perspective on the importance of security and data privacy, which he’s been able to bring to his professional work.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, homelab hobbyists like Shashank are an important part of the technology community. They’re passionate about building and maintaining their own infrastructure, and using it to learn and experiment with new technologies. Sam’s experience as a junior Linux system administrator has allowed him to take his hobby to the next level, and has provided him with valuable skills and knowledge that he can use in his personal and professional life.&lt;/p&gt;</content><author><name></name></author><category term="about" /><summary type="html">About</summary></entry><entry><title type="html">How permissions work on files and directories</title><link href="http://localhost:4000/2022/11/14/How-permissions-work-on-files-directories.html" rel="alternate" type="text/html" title="How permissions work on files and directories" /><published>2022-11-14T00:00:00+05:30</published><updated>2022-11-14T00:00:00+05:30</updated><id>http://localhost:4000/2022/11/14/How-permissions-work-on-files-directories</id><content type="html" xml:base="http://localhost:4000/2022/11/14/How-permissions-work-on-files-directories.html">&lt;h1 id=&quot;list-set-and-change-standard-permissions&quot;&gt;List set and change standard permissions&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;chgrp&lt;/strong&gt; - change group&lt;br /&gt;
+Change group ownerships&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;chmod&lt;/strong&gt; - change mode&lt;br /&gt;
+Change modification permissions&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;chown&lt;/strong&gt; - change ownership&lt;br /&gt;
+Change ownerships of users&lt;/p&gt;
+
+&lt;p&gt;When we do &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls -l&lt;/code&gt; we get this:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;drwxr-xr-x user family 4.0 KB Thu Nov 10 07:31:07 2022 Downloads
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Interpretation&lt;/strong&gt;:
+Here we see the folder “Downloads” is owned by user &lt;em&gt;“user”&lt;/em&gt; which has the read / write permissions to it and the super user &lt;em&gt;“sudo”&lt;/em&gt; too which has the admin privelages not to mention.
+Other than the user their is also a family attribiute next to it which is a group which can be seen having two permissions of reading it and executing it.&lt;/p&gt;
+
+&lt;h3 id=&quot;changing-the-group-of-the-file-it-belongs-to-we-can-use-the-command-chgrp&quot;&gt;Changing the group of the file it belongs to we can use the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chgrp&lt;/code&gt;:&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;chgrp &lt;/span&gt;wheel file
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;drwxr-xr-x user wheel 4.0 KB Thu Nov 10 07:31:07 2022 Downloads
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;to-see-which-a-current-user-belongs-to-we-can-use&quot;&gt;To see which a current user belongs to we can use:&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;groups&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;someuser adm cdrom &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;dip plugdev lpadmin lxd sambashare
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;changing-owenership-of-filedirectory-we-use-chown&quot;&gt;Changing owenership of file/directory we use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chown&lt;/code&gt;:&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo chown &lt;/span&gt;user filename
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="linux" /><summary type="html">List set and change standard permissions</summary></entry><entry><title type="html">Adding and removing Permissions</title><link href="http://localhost:4000/2022/11/14/adding-removing-permissions.html" rel="alternate" type="text/html" title="Adding and removing Permissions" /><published>2022-11-14T00:00:00+05:30</published><updated>2022-11-14T00:00:00+05:30</updated><id>http://localhost:4000/2022/11/14/adding-removing-permissions</id><content type="html" xml:base="http://localhost:4000/2022/11/14/adding-removing-permissions.html">&lt;h1 id=&quot;adding-permissions&quot;&gt;Adding permissions&lt;/h1&gt;
+
+&lt;p&gt;In order to change permissions of a file we can use specific options with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chmod&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;h3 id=&quot;important-options&quot;&gt;Important options&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Option&lt;/th&gt;
+      &lt;th&gt;Examples&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;user&lt;/td&gt;
+      &lt;td&gt;u+&lt;/td&gt;
+      &lt;td&gt;u+w / u+rw / u+rwx&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;group&lt;/td&gt;
+      &lt;td&gt;g+&lt;/td&gt;
+      &lt;td&gt;g+w / g+rw / g+rwx&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;others&lt;/td&gt;
+      &lt;td&gt;o+&lt;/td&gt;
+      &lt;td&gt;o+w / o+rw / o+rwx&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-r--rw----&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; 1 aaron family 49 Oct 27 14:41 family_dog.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Here we can see aaron has only read permission, what if we want to change this to read and write permissions both, we will use it like this:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;chmod &lt;/span&gt;u+w family_dog.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and now if we do &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls -l&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-rw-rw----&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; 1 aaron family 49 Oct 27 14:41 family_dog.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now we see user aaron has write permission to the file.&lt;/p&gt;
+
+&lt;h1 id=&quot;removing-permissions&quot;&gt;Removing permissions&lt;/h1&gt;
+
+&lt;p&gt;Just as like in adding permissions we used &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;u+&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;g+&lt;/code&gt; we will use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;u-&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;g-&lt;/code&gt;:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Option&lt;/th&gt;
+      &lt;th&gt;Examples&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;user&lt;/td&gt;
+      &lt;td&gt;u-&lt;/td&gt;
+      &lt;td&gt;u-w / u-rw / u-rwx&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;group&lt;/td&gt;
+      &lt;td&gt;g-&lt;/td&gt;
+      &lt;td&gt;g-w / g-rw / g-rwx&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;others&lt;/td&gt;
+      &lt;td&gt;o-&lt;/td&gt;
+      &lt;td&gt;o-w / o-rw / o-rwx&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;:&lt;br /&gt;
+Here we can see that we are removing write permission from the user:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;chmod &lt;/span&gt;u-w family_dog.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Now if we check by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls -l&lt;/code&gt; write permission is gone fromthe user:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-r--rw----&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; 1 aaron family 49 Oct 27 14:41 family_dog.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="linux" /><summary type="html">Adding permissions</summary></entry></feed>

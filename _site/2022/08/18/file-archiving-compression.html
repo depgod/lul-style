@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Basic file archiving and compression on linux</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Basic file archiving and compression on linux" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Archiving a file $ tar -cvf filename.tar foldername/location `-c` create `-v` verbos output `-f` set a filename/filelocation" />
+<meta property="og:description" content="Archiving a file $ tar -cvf filename.tar foldername/location `-c` create `-v` verbos output `-f` set a filename/filelocation" />
+<link rel="canonical" href="http://localhost:4000/2022/08/18/file-archiving-compression.html" />
+<meta property="og:url" content="http://localhost:4000/2022/08/18/file-archiving-compression.html" />
+<meta property="og:site_name" content="ox10" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-08-18T00:00:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Basic file archiving and compression on linux" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2022/08/18/file-archiving-compression.html","headline":"Basic file archiving and compression on linux","dateModified":"2022-08-18T00:00:00+05:30","datePublished":"2022-08-18T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/08/18/file-archiving-compression.html"},"@type":"BlogPosting","description":"Archiving a file $ tar -cvf filename.tar foldername/location `-c` create `-v` verbos output `-f` set a filename/filelocation","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="ox10" /><link rel="shortcut icon" type="image/x-icon" href="" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/"></a><h1>Basic file archiving and compression on linux</h1>
+
+<ol>
+  <li><strong>Archiving a file</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nv">$ </span><span class="nb">tar</span> <span class="nt">-cvf</span> filename.tar foldername/location  
+     <span class="sb">`</span><span class="nt">-c</span><span class="sb">`</span> create  
+     <span class="sb">`</span><span class="nt">-v</span><span class="sb">`</span> verbos output  
+     <span class="sb">`</span><span class="nt">-f</span><span class="sb">`</span> <span class="nb">set </span>a filename/filelocation  
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Compressing a file</strong><br />
+ a. To compress a file:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nv">$ </span><span class="nb">gzip </span>filename.tar    
+</code></pre></div>    </div>
+
+    <p>b. Show the file:</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nv">$ </span><span class="nb">ls</span>  
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Extracting a compressed file</strong><br />
+To unzip and extract a file:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">tar</span> <span class="nt">-xzvf</span> filename.tar.gz    
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+
+      </div>
+    </main>
+  </body>
+</html>

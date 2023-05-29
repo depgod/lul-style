@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Setup ssh key based authentication</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Setup ssh key based authentication" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Tutorial –" />
+<meta property="og:description" content="Tutorial –" />
+<link rel="canonical" href="http://localhost:4000/2022/08/18/ssh-key-based-auth.html" />
+<meta property="og:url" content="http://localhost:4000/2022/08/18/ssh-key-based-auth.html" />
+<meta property="og:site_name" content="ox10" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-08-18T00:00:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Setup ssh key based authentication" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2022/08/18/ssh-key-based-auth.html","headline":"Setup ssh key based authentication","dateModified":"2022-08-18T00:00:00+05:30","datePublished":"2022-08-18T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/08/18/ssh-key-based-auth.html"},"@type":"BlogPosting","description":"Tutorial –","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="ox10" /><link rel="shortcut icon" type="image/x-icon" href="" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/"></a><h1>Setup ssh key based authentication</h1>
+
+<h1 id="tutorial">Tutorial</h1>
+
+<p>–</p>
+
+<h2 id="pre-requisites">Pre-requisites</h2>
+
+<ol>
+  <li>Install the <code class="language-plaintext highlighter-rouge">openssh-server</code> package using your package manager
+ e.g. For Ubuntu or Debian:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nv">$ </span><span class="nb">sudo </span>apt <span class="nb">install </span>openssh-server
+</code></pre></div>    </div>
+  </li>
+  <li>Enable the ssh service
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nv">$ </span><span class="nb">sudo </span>systemctl <span class="nb">enable </span>ssh 
+</code></pre></div>    </div>
+  </li>
+  <li>Start the ssh service
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nv">$ </span><span class="nb">sudo </span>systemctl start ssh
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="important-notes">Important notes</h2>
+
+<ol>
+  <li>
+    <p>SSH key pairs are two cryptographically secure keys that can be used to authenticate a client to an SSH server. Each key pair consists of a public key and a private key.</p>
+  </li>
+  <li>
+    <p>The private key is retained by the client and should be kept absolutely secret. Any compromise of the private key will allow the attacker to log into servers that are configured with the associated public key without additional authentication. As an additional precaution, the key can be encrypted on disk with a passphrase.</p>
+  </li>
+  <li>
+    <p>The associated public key can be shared freely without any negative consequences. The public key can be used to encrypt messages that only the private key can decrypt. This property is employed as a way of authenticating using the key pair.</p>
+  </li>
+  <li>
+    <p>The public key is uploaded to a remote server that you want to be able to log into with SSH. The key is added to a special file within the user account you will be logging into called <code class="language-plaintext highlighter-rouge">~/.ssh/authorized_keys</code>.</p>
+  </li>
+  <li>
+    <p>When a client attempts to authenticate using SSH keys, the server can test the client on whether they are in possession of the private key. If the client can prove that it owns the private key, a shell session is spawned or the requested command is executed.</p>
+  </li>
+</ol>
+
+<p>–</p>
+
+<h3 id="creating-ssh-keys">Creating ssh keys</h3>
+
+<p>Creating a ssh-keypair</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh-keygen
+</code></pre></div></div>
+<ol>
+  <li>This will generate a private and a public key for the system which will be id_rsa and id_rsa.pub respectively.</li>
+  <li>At this step ssh will ask you for a different path to store the keys which can be defined by entering the path.</li>
+  <li>It will also ask for a passphrase for better security.</li>
+  <li>Now we will have two keys (private and public).</li>
+  <li>You now have a public and private key that you can use to authenticate. The next step is to place the public key on your server so that you can use SSH key authentication to log in.</li>
+</ol>
+
+<h3 id="copying-ssh-key-to-your-server">Copying ssh key to your server</h3>
+
+<p>Using <code class="language-plaintext highlighter-rouge">ssh-copy-id</code> copying the public key:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh-copy-id username@ip_address
+</code></pre></div></div>
+<p>Copying a specified key:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh-copy-id <span class="nt">-i</span> &lt;path&gt; username@ip_address
+</code></pre></div></div>
+
+<h3 id="authenticating-to-your-server-using-ssh-keys">Authenticating to your server using ssh keys</h3>
+
+<p>Now we will connect using</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh username@ip_address
+</code></pre></div></div>
+<ul>
+  <li>This will ask you to authenticate the user and it is the first time logging in and does not recognise the connection.</li>
+</ul>
+
+<h3 id="disabling-password-authentication-on-your-server">Disabling password authentication on your server</h3>
+
+<p>Now we will edit the <code class="language-plaintext highlighter-rouge">ssh_config</code> file for futher hardening</p>
+<ol>
+  <li>Set <code class="language-plaintext highlighter-rouge">PasswordAuthentication no</code></li>
+  <li>Set <code class="language-plaintext highlighter-rouge">MaxAuthTries 4</code></li>
+  <li>Set <code class="language-plaintext highlighter-rouge">PubkeyAuthentication yes</code></li>
+  <li>Set <code class="language-plaintext highlighter-rouge">PermitEmptyPasswords no</code></li>
+  <li>Save and exit the config file.</li>
+</ol>
+
+<h3 id="final-setps">Final setps</h3>
+
+<ol>
+  <li>Restarting ssh
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>service ssh restart
+</code></pre></div>    </div>
+  </li>
+  <li>Enabling ssh
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>service ssh <span class="nb">enable</span>
+</code></pre></div>    </div>
+    <p>This will start the service on startup everytime.</p>
+  </li>
+</ol>
+
+<h2 id="all-set-">ALL SET !!!</h2>
+
+      </div>
+    </main>
+  </body>
+</html>

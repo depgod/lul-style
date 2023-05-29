@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Octal Permissions</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Octal Permissions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Octal Permissions" />
+<meta property="og:description" content="Octal Permissions" />
+<link rel="canonical" href="http://localhost:4000/2022/11/14/octal-permissions.html" />
+<meta property="og:url" content="http://localhost:4000/2022/11/14/octal-permissions.html" />
+<meta property="og:site_name" content="ox10" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-11-14T00:00:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Octal Permissions" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/2022/11/14/octal-permissions.html","headline":"Octal Permissions","dateModified":"2022-11-14T00:00:00+05:30","datePublished":"2022-11-14T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/11/14/octal-permissions.html"},"@type":"BlogPosting","description":"Octal Permissions","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="ox10" /><link rel="shortcut icon" type="image/x-icon" href="" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/"></a><h1>Octal Permissions</h1>
+
+<h1 id="octal-permissions">Octal Permissions</h1>
+
+<p>In order to understand octal permissions we need to use the <code class="language-plaintext highlighter-rouge">stat</code> command:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">stat </span>family_dog.jpg
+</code></pre></div></div>
+<p><strong>Output</strong>:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>File: family_dog.jpg
+  Size: 49		Blocks: 8		IO Block: 4096	regular file
+Device: fd00h/64768d	Inode: 52946177		Links: 1
+Access: <span class="o">(</span>0640/-rw-r-----<span class="o">)</span> Uid: <span class="o">(</span> 1000/	aaron<span class="o">)</span>	Gid: <span class="o">(</span>	10/	wheel<span class="o">)</span>  
+</code></pre></div></div>
+
+<p>Here we can see the owner permission is 6, group permission is 4, and other permission is 0, but how do these numbers are calculated?</p>
+
+<p>To better understand the octal permissions we need to understand the binary table:</p>
+
+<p><strong>Example</strong>:
+As we can see in the above example about the rwx permissions, if we look closely:<br />
+<code class="language-plaintext highlighter-rouge">-rw-r-----</code></p>
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">-rw</code>: shows 110</li>
+  <li><code class="language-plaintext highlighter-rouge">r--</code>: shows 100</li>
+  <li><code class="language-plaintext highlighter-rouge">---</code>: shows 000</li>
+</ol>
+
+<p>Looking at the binary table:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Binary</th>
+      <th>Decimal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>010</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>011</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>110</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>111</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Example</strong>:
+For another example lets see how we can use octal values to set permission for a file:</p>
+
+<p>Suppose we want to give read, write and executing permissions to the user how will the octal values look like?</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">chmod </span>740 family_dog.jpg
+</code></pre></div></div>
+
+<p>We gave 7 as we wanted the user to have read, write and executing permissions and group had 4 means group had only read permission and others had 0 as per the binary table.</p>
+
+
+      </div>
+    </main>
+  </body>
+</html>
