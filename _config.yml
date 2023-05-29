@@ -23,6 +23,8 @@ email: redpulsar@skiff.com
 description: >- # this means to ignore newlines until "baseurl:"
   Linux Sysadmin, Table tennis, servers etc
 
+favicon: "terminal.png"
+
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://shellshock.lol" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

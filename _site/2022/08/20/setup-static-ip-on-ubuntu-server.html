@@ -20,7 +20,7 @@
 <script type="application/ld+json">
 {"url":"https://shellshock.lol/2022/08/20/setup-static-ip-on-ubuntu-server.html","headline":"Setup static ip on ubuntu-server","dateModified":"2022-08-20T00:00:00+05:30","datePublished":"2022-08-20T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"https://shellshock.lol/2022/08/20/setup-static-ip-on-ubuntu-server.html"},"@type":"BlogPosting","description":"Setup static ip on ubuntu-server Using netplan First checkout your interface name: $ ip a Image Now edit your netplan config file: $ sudo nano /etc/netplan/netplan-config.yaml Now enter the following: $ network: version: 2 rendered: networkd ethernets: [interface name]: dhcp4: no addresses: - 192.168.1.10/24 gateway4: 192.168.1.1 nameservers: addresses: - 8.8.8.8 - 8.8.4.4 - 8.8.4.4 Here we have disabled DHCP and given a local ip with gateway and nameservers. NOTE: YAML files are highly space sensitive.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link type="application/atom+xml" rel="alternate" href="https://shellshock.lol/feed.xml" title="ox10" /><link rel="shortcut icon" type="image/x-icon" href="" />
+<link type="application/atom+xml" rel="alternate" href="https://shellshock.lol/feed.xml" title="ox10" /><link rel="shortcut icon" type="image/x-icon" href="/terminal.png" />
   <link rel="stylesheet" href="/assets/css/main.css" />
 </head><body a="dark">
     <main class="page-content" aria-label="Content">
