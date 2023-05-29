@@ -69,6 +69,7 @@ PLATFORMS
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
+  jekyll (~> 3.9)
   jekyll-feed (~> 0.12)
   kramdown-parser-gfm
   no-style-please (~> 0.3)
