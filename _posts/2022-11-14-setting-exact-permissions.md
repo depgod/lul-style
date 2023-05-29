@@ -4,7 +4,6 @@ title: Setting Exact Permissions
 tags: linux
 ---
 
-# Setting Exact Permissions
 
 Just like while adding or removing permissions we can set exact permissions using the "=" sign insted of "+"/"-".
 

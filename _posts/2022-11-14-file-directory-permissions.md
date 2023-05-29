@@ -4,7 +4,6 @@ title: File Directory Permissions
 tags: linux
 ---
 
-# File and Directory Permissions
 Understanding read, write and executable permissions.  
 
 

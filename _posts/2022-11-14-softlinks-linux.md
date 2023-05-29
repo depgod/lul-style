@@ -4,7 +4,6 @@ title: Softlinks in linux
 tags: linux
 ---
 
-# Softlinks in linux
 
 Softlinks are basically an absolute path to the executable, like in windows we see desktop shortcuts which actually leads to an absolute path of the executable resulting in executing that file upon clicking.
 

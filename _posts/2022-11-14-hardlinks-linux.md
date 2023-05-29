@@ -4,7 +4,6 @@ title: Hardlinks in Linux
 tags: linux
 ---
 
-# Hard Links in Linux
 
 Hard links are links which points to an inode of a file.
 

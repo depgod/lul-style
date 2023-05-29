@@ -4,7 +4,6 @@ title: SUID, SGID and Stickybit
 tags: linux
 ---
 
-# SUID, SGID, and Sticky Bit
 
 
 SUID, SGID, and sticky bits are Linux file attributes that allow you to define special permissions on files and directories. These attributes can be set using the chmod command and have different effects on the file or directory depending on their usage.

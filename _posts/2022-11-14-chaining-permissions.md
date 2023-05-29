@@ -4,7 +4,6 @@ title: Chaining Permissions
 tags: linux
 ---
 
-# Chaining Permissions
 
 In chaining permissions we give simultaneous permissions to different sets be it user or groups or others.
 

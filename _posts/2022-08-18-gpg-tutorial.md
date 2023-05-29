@@ -3,8 +3,6 @@ layout: page
 title: Managing our GPG keys on linux for better security
 tags: linux
 ---
-## Tutorial
-
 
 1. Create your own private/public key pair and revocation certificate
 	```bash

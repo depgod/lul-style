@@ -3,9 +3,6 @@ layout: page
 title: Setup ssh key based authentication
 tags: linux
 ---
-# Tutorial
-  
---
 
 ## Pre-requisites    
 

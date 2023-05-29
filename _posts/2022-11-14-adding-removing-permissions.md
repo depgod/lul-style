@@ -4,7 +4,6 @@ title: Adding and removing Permissions
 tags: linux
 ---
 
-# Adding permissions
 
 In order to change permissions of a file we can use specific options with the `chmod` command.  
 

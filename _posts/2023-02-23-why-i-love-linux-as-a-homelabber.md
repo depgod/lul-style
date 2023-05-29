@@ -4,7 +4,6 @@ layout: page
 tags: homelab
 ---
 
-# Why I love linux as a homelabber  
 
 As a homelabber, I have come to appreciate and love Linux for its flexibility, security, and versatility. Linux has become a staple of my homelab, and I cannot imagine using any other operating system for my home projects and experiments.  
 

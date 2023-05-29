@@ -4,10 +4,7 @@ layout: page
 tags: linux
 ---
 
-# Communities / Blogs I follow  
----
-
-### Websites
+### Blogs
 
 
   1. It's Foss -> https://itsfoss.com

@@ -4,7 +4,7 @@ title: How permissions work on files and directories
 tags: linux
 ---
 
-# List set and change standard permissions
+* List set and change standard permissions
 
 __chgrp__ - change group  
 Change group ownerships  

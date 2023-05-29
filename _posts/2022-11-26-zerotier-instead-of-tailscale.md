@@ -4,10 +4,6 @@ title: Zerotier instead of Tailscale
 tags: networking
 ---
 
-# Zerotier instead of Tailscale
-
----
-
 ![Zerotier](/assets/zerotier_logo_white.png)  
 <br/>
 

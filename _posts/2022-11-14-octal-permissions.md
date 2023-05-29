@@ -4,7 +4,6 @@ title: Octal Permissions
 tags: linux
 ---
 
-# Octal Permissions
 
 In order to understand octal permissions we need to use the `stat` command:  
 ```bash
