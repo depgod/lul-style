@@ -5,13 +5,12 @@ entries:
   - title: Info
     entries:
       - title: Github
-        url: https://github.com/depgod/weblog
+        url: https://github.com/depgod
       - title: Telegram
-        url: 
+        url: https://t.me/usrbinbash
       - title: Matrix
         url: 
-      - title: Mail
-        url: redpulsar@skiff.com
+      - title: redpulsar@skiff.com
       - title: GPG
         url: 
 
